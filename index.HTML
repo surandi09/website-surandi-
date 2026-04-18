@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Surandi</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-teal-900 to-black text-white">
+
+<!-- NAVBAR -->
+<div class="fixed top-0 w-full bg-black/70 backdrop-blur-md p-4 flex justify-center gap-6 z-50">
+    <a href="#home" class="hover:text-cyan-400">Home</a>
+    <a href="#blog" class="hover:text-cyan-400">Blog</a>
+    <a href="#profil" class="hover:text-cyan-400">Profil</a>
+    <a href="#cv" class="hover:text-cyan-400">CV</a>
+    <a href="#galeri" class="hover:text-cyan-400">Galeri</a>
+</div>
+
+<!-- HOME -->
+<section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Selamat Datang</h1>
+    <p class="text-lg text-gray-300 mb-6">
+        Website pribadi Surandi Surya Jaya Putra
+    </p>
+
+    <!-- BUTTON MENU -->
+    <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#blog" class="bg-cyan-500 px-6 py-2 rounded-lg hover:bg-cyan-400">Blog</a>
+        <a href="#profil" class="bg-cyan-500 px-6 py-2 rounded-lg hover:bg-cyan-400">Profil</a>
+        <a href="#cv" class="bg-cyan-500 px-6 py-2 rounded-lg hover:bg-cyan-400">CV</a>
+        <a href="#galeri" class="bg-cyan-500 px-6 py-2 rounded-lg hover:bg-cyan-400">Galeri</a>
+    </div>
+
+    <!-- DESKRIPSI TAMBAHAN -->
+    <div class="mt-10 max-w-xl text-gray-400">
+        <p>
+            Website ini berisi informasi tentang diri saya, pengalaman kerja,
+            serta beberapa dokumentasi foto. Silakan jelajahi menu yang tersedia.
+        </p>
+    </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="py-24 px-6 max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Blog</h1>
+
+    <div class="bg-white/5 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h2 class="text-2xl font-semibold mb-3">Leonardo DiCaprio</h2>
+
+        <p class="mb-3">
+            Leonardo DiCaprio adalah aktor terkenal asal Amerika Serikat yang lahir pada tahun 1974.
+            Ia dikenal sebagai salah satu aktor terbaik di dunia dengan kemampuan akting yang luar biasa.
+        </p>
+
+        <p class="mb-3">
+            Kariernya mulai dikenal luas sejak membintangi film Titanic (1997), yang membuat namanya
+            mendunia. Setelah itu, ia terus membintangi berbagai film terkenal seperti Inception,
+            The Wolf of Wall Street, dan The Revenant.
+        </p>
+
+        <p class="mb-3">
+            Dalam film The Revenant, Leonardo berhasil meraih penghargaan Oscar sebagai Aktor Terbaik.
+            Hal ini menjadi pencapaian besar setelah beberapa kali masuk nominasi sebelumnya.
+        </p>
+
+        <p>
+            Selain berkarier di dunia film, Leonardo juga dikenal sebagai aktivis lingkungan.
+            Ia sering terlibat dalam kampanye perubahan iklim dan mendirikan yayasan yang fokus
+            pada pelestarian lingkungan.
+        </p>
+    </div>
+</section>
+
+<!-- PROFIL -->
+<section id="profil" class="py-24 px-6 max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Profil</h1>
+
+    <div class="bg-white/5 p-6 rounded-xl shadow-lg text-center">
+        <img src="foto2.jpeg" class="w-40 mx-auto rounded-xl mb-4">
+
+        <p>Nama: Surandi Surya Jaya Putra</p>
+        <p>No HP: 089653524320</p>
+        <p>Alamat: Jalan Slamet Riyadi, Karang Asam</p>
+        <p>Kota: Samarinda</p>
+        <p>Provinsi: Kalimantan Timur</p>
+    </div>
+</section>
+
+<!-- CV -->
+<section id="cv" class="py-24 px-6 max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Curriculum Vitae</h1>
+
+    <div class="bg-white/5 p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Biodata</h3>
+        <p>Nama: Surandi Surya Jaya Putra</p>
+        <p>No HP: 089653524320</p>
+        <p>Alamat: Samarinda, Kalimantan Timur</p>
+
+        <h3 class="text-xl font-semibold mt-4 mb-2">Pengalaman Kerja</h3>
+        <ul class="list-disc ml-6">
+            <li>Driver Maxim</li>
+            <li>Pekerja Catering</li>
+        </ul>
+    </div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="py-24 px-6">
+    <h1 class="text-3xl font-bold mb-6 text-center">Galeri</h1>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="foto 1.jpeg" class="rounded-xl hover:scale-105 transition">
+        <img src="foto2.jpeg" class="rounded-xl hover:scale-105 transition">
+        <img src="foto 3.jpeg" class="rounded-xl hover:scale-105 transition">
+        <img src="foto 4.jpeg" class="rounded-xl hover:scale-105 transition">
+        <img src="foto 5.jpeg" class="rounded-xl hover:scale-105 transition">
+        
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center p-6 bg-black/50">
+    <p>© 2026 Surandi Surya Jaya Putra</p>
+</footer>
+
+
+</body>
+</html>
